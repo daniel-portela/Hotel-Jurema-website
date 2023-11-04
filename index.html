@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Site oficial Hotel Jurema </title>
+</head>
+
+<body>
+   <section class="header">
+      <div class="flex">
+         <a href="#home" class="logo">Hotel Jurema</a>
+         <a href="#availability" class="btn">Verificar disponibilidade</a>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+      <nav class="navbar">
+         <a href="#home">Início</a>
+         <a href="#about">Sobre</a>
+         <a href="#reservation">Reserva</a>
+         <a href="#gallery">Galeria</a>
+         <a href="#contact">Contato</a>
+         <a href="#reviews">Avaliações</a>
+      </nav>
+   </section>
+
+   <section class="home" id="home">
+      <div class="swiper home-slider">
+         <div class="swiper-wrapper">
+            <div class="box swiper-slide">
+               <img src="images/home-img-4.jpg" alt="Imagem da porta de entrada do quarto do hotel">
+               <div class="flex">
+                  <h3>Quartos luxuosos</h3>
+                  <a href="#availability" class="btn">Verifique a disponibilidade</a>
+               </div>
+            </div>
+
+            <div class="box swiper-slide">
+               <img src="images/home-img-3.jpg" alt="Imagem do quarto do hotel">
+               <div class="flex">
+                  <h3>Alimentos e bebidas</h3>
+                  <a href="#reservation" class="btn">Fazer uma reserva</a>
+               </div>
+            </div>
+
+            <div class="box swiper-slide">
+               <img src="images/home-img-1.jpg" alt="Imagem da praia do hotel">
+               <div class="flex">
+                  <h3>Alimentos e bebidas</h3>
+                  <a href="#reservation" class="btn">Fazer uma reserva</a>
+               </div>
+            </div>
+
+            <div class="box swiper-slide">
+               <img src="images/home-img-2.jpg" alt="Imagem da recepcionista atendendo telefone">
+               <div class="flex">
+                  <h3>Salões luxuosos</h3>
+                  <a href="#contact" class="btn">Contate-nos</a>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+   </section>
+
+   <section class="availability" id="availability">
+      <form action="" method="post">
+         <div class="flex">
+            <div class="box">
+               <p>Check in<span></span></p>
+               <input type="date" name="check_in" class="input" required>
+            </div>
+
+            <div class="box">
+               <p>Check out <span></span></p>
+               <input type="date" name="check_out" class="input" required>
+            </div>
+
+            <div class="box">
+               <p>Adultos <span></span></p>
+               <select name="adults" class="input" required>
+                  <option value="1">1 adulto</option>
+                  <option value="2">2 adultos</option>
+                  <option value="3">3 adultos</option>
+                  <option value="4">4 adultos</option>
+                  <option value="5">5 adultos</option>
+                  <option value="6">6 adultos</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>infantil <span></span></p>
+               <select name="childs" class="input" required>
+                  <option value="-">0 criança</option>
+                  <option value="1">1 crianças</option>
+                  <option value="2">2 crianças</option>
+                  <option value="3">3 crianças</option>
+                  <option value="4">4 crianças</option>
+                  <option value="5">5 crianças</option>
+                  <option value="6">6 crianças</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>Salas <span></span></p>
+               <select name="rooms" class="input" required>
+                  <option value="1">1 sala</option>
+                  <option value="2">2 salas</option>
+                  <option value="3">3 salas</option>
+                  <option value="4">4 salas</option>
+                  <option value="5">5 salas</option>
+                  <option value="6">6 salas</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="Verificar disponibilidade" name="check" class="btn">
+      </form>
+   </section>
+
+   <section class="about" id="about">
+      <div class="row">
+         <div class="image">
+            <img src="images/about-img-1.jpg" alt="Imagem da recepção do hotel">
+         </div>
+
+         <div class="content">
+            <h3>Melhor equipe</h3>
+            <p>Olá, seja bem-vindo ao nosso hotel, o Hotel Jurema. Gostaríamos de apresentar a você a nossa dedicada
+               equipe, que trabalha incansavelmente para garantir a sua experiência conosco seja memorável.</p>
+            <a href="#reservation" class="btn">Fazer uma reserva</a>
+         </div>
+      </div>
+
+      <div class="row revers">
+         <div class="image">
+            <img src="images/about-img-2.jpg" alt="Imagem dos alimentos e bebidas do hotel">
+         </div>
+
+         <div class="content">
+            <h3>Melhores alimentos</h3>
+            <p>No Hotel Jurema, temos o prazer de apresentar a você uma experiência gastronômica excepcional,
+               preparada com carinho e cuidado por nossa talentosa equipe de culinária. </p>
+            <a href="#contact" class="btn">Contate-nos</a>
+         </div>
+      </div>
+
+      <div class="row">
+         <div class="image">
+            <img src="images/about-img-3.jpg" alt="Imagem da piscina do hotel">
+         </div>
+         <div class="content">
+            <h3>Piscina</h3>
+            <p>Nosso bar na piscina oferece uma variedade de bebidas refrescantes e lanches para tornar o seu dia na
+               piscina ainda mais agradável. Você pode desfrutar de coquetéis, sucos frescos e petiscos enquanto relaxa.
+            </p>
+            <a href="#availability" class="btn">Fazer uma reserva</a>
+         </div>
+      </div>
+   </section>
+
+   <section class="services">
+      <div class="box-container">
+         <div class="box">
+            <img src="images/icon-1.png" alt="Ícone de bebidas">
+            <h3>Bebidas e alimentos</h3>
+            <p>No Hotel Jurema, nossa dedicação à sua experiência vai além das acomodações e se estende à nossa oferta
+               excepcional de alimentos e bebidas. </p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-2.png" alt="Ícone de resorts">
+            <h3>Jantar ao ar livre</h3>
+            <p>O nosso espaço ao ar livre é cercado por uma paisagem deslumbrante, proporcionando um cenário encantador
+               para o seu jantar.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-3.png" alt="Ícone da vista para a natureza">
+            <h3>Vista da praia</h3>
+            <p>A nossa localização privilegiada à beira-mar oferece uma vista espetacular da praia, tornando a sua
+               estadia uma experiência verdadeiramente memorável.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-4.png" alt="Ícone das decorações">
+            <h3>Decorações</h3>
+            <p>Acreditamos que a decoração desempenha um papel fundamental em criar uma atmosfera acolhedora e memorável
+               para os nossos hóspedes.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-5.png" alt="Ícone da piscina">
+            <h3>Piscina</h3>
+            <p>Também temos uma piscina infantil separada, para que as crianças possam se divertir com segurança,
+               enquanto os adultos relaxam na piscina principal.</p>
+         </div>
+
+         <div class="box">
+            <img src="images/icon-6.png" alt="Ícone passeando na praia">
+            <h3>Praia turística</h3>
+            <p>Temos a honra de estar localizados em uma região abençoada com algumas das praias mais deslumbrantes e
+               turísticas.</p>
+         </div>
+      </div>
+   </section>
+
+   <section class="reservation" id="reservation">
+      <form action="" method="post">
+         <h3>Fazer uma reserva</h3>
+         <div class="flex">
+            <div class="box">
+               <p>Check in <span></span></p>
+               <input type="date" name="check_in" class="input" required>
+            </div>
+
+            <div class="box">
+               <p>Check out <span></span></p>
+               <input type="date" name="check_out" class="input" required>
+            </div>
+
+            <div class="box">
+               <p>Adulto <span></span></p>
+               <select name="adults" class="input" required>
+                  <option value="1">1 adulto</option>
+                  <option value="2">2 adultos</option>
+                  <option value="3">3 adultos</option>
+                  <option value="4">4 adultos</option>
+                  <option value="5">5 adultos</option>
+                  <option value="6">6 adultos</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>Criança <span></span></p>
+               <select name="childs" class="input" required>
+                  <option value="-">0 criança</option>
+                  <option value="1">1 criança</option>
+                  <option value="2">2 crianças</option>
+                  <option value="3">3 crianças</option>
+                  <option value="4">4 crianças</option>
+                  <option value="5">5 crianças</option>
+                  <option value="6">6 crianças</option>
+               </select>
+            </div>
+
+            <div class="box">
+               <p>Sala <span></span></p>
+               <select name="rooms" class="input" required>
+                  <option value="1">1 sala</option>
+                  <option value="2">2 salas</option>
+                  <option value="3">3 salas</option>
+                  <option value="4">4 salas</option>
+                  <option value="5">5 salas</option>
+                  <option value="6">6 salas</option>
+               </select>
+            </div>
+         </div>
+         <input type="submit" value="Verificar disponibilidade" name="check" class="btn">
+      </form>
+   </section>
+
+   <section class="gallery" id="gallery">
+      <div class="swiper gallery-slider">
+         <div class="swiper-wrapper">
+            <img src="images/gallery-img-1.jpg" class="swiper-slide" alt="Imagem da recepção do hotel">
+            <img src="images/gallery-img-2.webp" class="swiper-slide" alt="Imagem do quarto do hotel">
+            <img src="images/gallery-img-3.jpg" class="swiper-slide" alt="Imagem do quarto do hotel">
+            <img src="images/gallery-img-4.webp" class="swiper-slide" alt="Imagem da recepcionista e do cliente conversando">
+            <img src="images/gallery-img-5.jpg" class="swiper-slide" alt="Imagem de uma mulher sentada na cama do hotel">
+            <img src="images/gallery-img-6.webp" class="swiper-slide" alt="Imagem da vista da praia">
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+   <section class="contact" id="contact">
+      <div class="row">
+         <form action="" method="post">
+            <h3>Envie uma mensagem</h3>
+            <input type="text" name="name" required maxlength="50" placeholder="Nome" class="box">
+            <input type="email" name="email" required maxlength="50" placeholder="Sobrenome" class="box">
+            <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="Telefone"
+               class="box">
+            <textarea name="msg" class="box" required maxlength="1000" placeholder="Envie uma mensagem" cols="30"
+               rows="10"></textarea>
+            <input type="submit" value="Enviar mensagem" name="send" class="btn">
+         </form>
+
+         <div class="faq">
+            <h3 class="title">Perguntas frequentes</h3>
+            <div class="box active">
+               <h3>Como cancelar?</h3>
+               <p>Solicite um comprovante de cancelamento: Após o cancelamento, peça ao hotel um comprovante por escrito
+                  ou um e-mail que confirme o cancelamento da reserva e quaisquer detalhes relacionados ao reembolso, se
+                  aplicável.</p>
+            </div>
+
+            <div class="box">
+               <h3>Existe alguma vaga?</h3>
+               <p> Ligue para a recepção do hotel ou entre em contato por e-mail, se preferir. Forneça as datas de
+                  check-in e check-out desejadas, bem como o número de hóspedes e qualquer preferência específica de
+                  quarto, como cama de casal ou duas camas de solteiro.</p>
+            </div>
+
+            <div class="box">
+               <h3>Quais são os métodos de pagamento?</h3>
+               <p>É importante verificar as opções de pagamento disponíveis diretamente com o hotel no momento da
+                  reserva ou do check-in, pois as políticas de pagamento podem variar de um estabelecimento para outro.
+                  Certifique-se também de compreender as políticas de retenção de depósito e eventuais encargos que
+                  podem ser aplicados no momento do check-in ou check-out.</p>
+            </div>
+
+            <div class="box">
+               <h3>Quais são os requisitos de idade?</h3>
+               <p>A maioria dos hotéis exige que pelo menos um dos hóspedes registrados no quarto tenha pelo menos 18
+                  anos ou mais para efetuar o check-in. Alguns hotéis podem ter uma idade mínima mais alta, como 21
+                  anos, especialmente em resorts ou propriedades de luxo.</p>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="reviews" id="reviews">
+      <div class="swiper reviews-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+               <img src="images/pic-1.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Carlos Lamarca</h3>
+               <p>Nunca vi tanto conforto em um hotel como este. Estão de parabéns!</p>
+            </div>
+
+            <div class="swiper-slide box">
+               <img src="images/pic-2.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Amanda Pedrosa</h3>
+               <p>Gente me apaixonei pela vista em frente ao mar enquanto pego um solzinho.</p>
+            </div>
+
+            <div class="swiper-slide box">
+               <img src="images/pic-3.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Kleber Dinner</h3>
+               <p>Pensaram bem em adquirir espaços para as crianças também. Meu filho amou!</p>
+            </div>
+
+            <div class="swiper-slide box">
+               <img src="images/pic-4.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Raissa Menz</h3>
+               <p>Apaixonada pela qualidade dos colchões e pela harmonia dque o quarto passa!</p>
+            </div>
+
+            <div class="swiper-slide box">
+               <img src="images/pic-5.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Luis Adriano</h3>
+               <p>Ótima vista e um ótimo atendimento dos recepcionistas. Com toda certeza ficarei por muito tempo!</p>
+            </div>
+
+            <div class="swiper-slide box">
+               <img src="images/pic-6.png" alt="Opinião de usuário sobre o hotel">
+               <h3>Brunna Santos</h3>
+               <p>Sem comentários! Só tenho a agradecer pelo comprometimento da equipe.</p>
+            </div>
+         </div>
+         <div class="swiper-pagination"></div>
+      </div>
+   </section>
+
+   <section class="footer">
+      <div class="box-container">
+         <div class="box">
+            <a href=""><i class="fas fa-phone"></i> 77 999918374</a>
+            <a href=""><i class="fas fa-envelope"></i> hoteljurema@gmail.com</a>
+            <a href=""><i class="fas fa-map-marker-alt"></i> Oliveira dos Brejinhos, BA</a>
+         </div>
+
+         <div class="box">
+            <a href="#home">Início</a>
+            <a href="#about">Sobre</a>
+            <a href="#reservation">Reserva</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contact">Contato</a>
+            <a href="#reviews">Avaliações</a>
+         </div>
+
+         <div class="box">
+            <a href="#">Facebook <i class="fab fa-facebook-f"></i></a>
+            <a href="#">Twitter <i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com/hoteljurema?igshid=YTQwZjQ0NmI0OA==" target="_blank">Instagram <i class="fab fa-instagram"></i></a>
+            <a href="#">Linkedin <i class="fab fa-linkedin"></i></a>
+         </div>
+      </div>
+      <div class="credit">&copy; copyright @ 2023 por Daniel Front | Todos os direitos reservados!</div>
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
