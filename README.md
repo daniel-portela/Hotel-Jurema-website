@@ -11,9 +11,9 @@ Site oficial Hotel Jurema desenvolvido de forma autônoma
 <a href="https://juremahotel.netlify.app/"><strong>Demonstração ao vivo</strong></a>
 </div>
 
-![alt text](preview.jpg)
+![preview](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/e294ab8c-f456-4492-8693-4c0eded93e8a)
 
-![alt text](preview-responsive.jpg)
+![preview-responsive](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/5e196249-dbbe-44ae-a83e-0a08949b90c7)
 
 <b>Tecnologias utilizadas:</b>
 
