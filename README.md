@@ -15,43 +15,27 @@ Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvo
 
 ![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=blue&labelColor=0D1117)&nbsp;
-![JavaScript](https://img.shields.io/badge/-javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow&labelColor=0D1117)&nbsp;
+![JavaScript](https://img.shields.io/badge/-javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow&labelColor=0D1117)&nbsp;<hr>
 
-<b>Recursos e funcionalidades:</b>
+🛠️ <b>Recursos e funcionalidades:</b>
 
-Responsividade: 
+- O site é totalmente responsivo, garantindo uma experiência de usuário consistente em dispositivos de diferentes tamanhos. 
 
-O site é totalmente responsivo, garantindo uma experiência de usuário consistente em dispositivos de diferentes tamanhos.
+- A navegação é facilitada por meio de um menu de navegação intuitivo e botões de rolagem suave. 
 
-Navegação intuitiva: 
+- O site possui sliders interativos na página inicial e na galeria de fotos. 
 
-A navegação é facilitada por meio de um menu de navegação intuitivo e botões de rolagem suave.
+- Os usuários podem verificar a disponibilidade de quartos fornecendo suas datas de check-in, check-out e número de hóspedes.
 
-Slider interativo: 
+- Há um formulário de reserva onde os usuários podem inserir suas informações e fazer uma reserva diretamente pelo site.
+ 
+- Uma galeria de fotos oferece uma visão detalhada das instalações do hotel e das vistas da região.
 
-O site possui sliders interativos na página inicial e na galeria de fotos.
+- Os usuários podem entrar em contato com o hotel por meio de um formulário de contato e encontrar respostas para perguntas frequentes.
 
-Verificação de disponibilidade: 
+- Uma seção exibe avaliações de clientes, oferecendo insights sobre a experiência do hotel.<hr>
 
-Os usuários podem verificar a disponibilidade de quartos fornecendo suas datas de check-in, check-out e número de hóspedes.
-
-Formulário de reserva: 
-
-Há um formulário de reserva onde os usuários podem inserir suas informações e fazer uma reserva diretamente pelo site.
-
-Galeria de fotos: 
-
-Uma galeria de fotos oferece uma visão detalhada das instalações do hotel e das vistas da região.
-
-Contato e FAQ: 
-
-Os usuários podem entrar em contato com o hotel por meio de um formulário de contato e encontrar respostas para perguntas frequentes.
-
-Avaliações de clientes: 
-
-Uma seção exibe avaliações de clientes, oferecendo insights sobre a experiência do hotel.
-
-<b>Próximos passos para o projeto:</b>
+🕵🏻 <b>Próximos passos para o projeto:</b>
 
 - Implementar um backend para processar as reservas e mensagens dos clientes.
 
