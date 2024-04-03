@@ -33,7 +33,7 @@ Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvo
 
 - Os usuários podem entrar em contato com o hotel por meio de um formulário de contato e encontrar respostas para perguntas frequentes.
 
-- Uma seção exibe avaliações de clientes, oferecendo insights sobre a experiência do hotel.<hr>
+- Uma seção exibe avaliações de clientes, oferecendo insights sobre a experiência do hotel.<hr><br>
 
 🕵🏻 <b>Próximos passos para o projeto:</b>
 
@@ -43,7 +43,7 @@ Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvo
 
 - Melhorar a acessibilidade do site para atender a diversas necessidades dos usuários.</br></br>
 
-🔒 <b>Licença</b>
+🔒 <b>Licença</b><BR>
 
 Este projeto está sob [LICENSE](LICENSE), o que significa que você não tem permissão para usar, modificar e distribuir o código conforme desejar, desde que mantenha o aviso de direitos autorais e a licença. Contudo, se você encontrar bugs, tiver sugestões de melhorias ou quiser contribuir de alguma forma, ficarei feliz em receber seu feedback.
 
