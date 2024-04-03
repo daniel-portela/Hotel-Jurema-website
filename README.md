@@ -1,23 +1,21 @@
 <div align="center">
 
-Site oficial Hotel Jurema desenvolvido de forma autônoma
-
-![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=blue&labelColor=0D1117)&nbsp;
-![JavaScript](https://img.shields.io/badge/-javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow&labelColor=0D1117)&nbsp;
+Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvolvido de forma autônoma
 
 <p>Este é um projeto de site oficial para o Hotel Jurema, desenvolvido por um autônomo. O objetivo deste projeto era criar um site elegante e funcional para promover o hotel, fornecendo informações sobre suas instalações, serviços, disponibilidade, galeria de fotos, contatos e avaliações dos clientes.</p>
 
-<a href="https://juremahotel.netlify.app/"><strong>Demonstração ao vivo</strong></a>
+<a href="https://juremahotel.netlify.app/">Demonstração ao vivo</a>
 </div>
 
 ![preview](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/e294ab8c-f456-4492-8693-4c0eded93e8a)
 
 ![preview-responsive](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/5e196249-dbbe-44ae-a83e-0a08949b90c7)
 
-<b>Tecnologias utilizadas:</b>
+👨🏼‍💻 <b>Tecnologias utilizadas:</b>
 
-HTML5, CSS3 e JavaScript
+![HTML](https://img.shields.io/badge/-HTML-0D1117?style=for-the-badge&logo=html5&labelColor=0D1117)&nbsp;
+![CSS](https://img.shields.io/badge/-CSS-0D1117?style=for-the-badge&logo=CSS3&logoColor=blue&labelColor=0D1117)&nbsp;
+![JavaScript](https://img.shields.io/badge/-javascript-0D1117?style=for-the-badge&logo=javascript&logoColor=yellow&labelColor=0D1117)&nbsp;
 
 <b>Recursos e funcionalidades:</b>
 
@@ -61,23 +59,22 @@ Uma seção exibe avaliações de clientes, oferecendo insights sobre a experiê
 
 - Melhorar a acessibilidade do site para atender a diversas necessidades dos usuários.</br></br>
 
-<b>Licença:</b>
+🔒 <b>Licença</b>
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está sob [LICENSE](LICENSE), o que significa que você não tem permissão para usar, modificar e distribuir o código conforme desejar, desde que mantenha o aviso de direitos autorais e a licença. Contudo, se você encontrar bugs, tiver sugestões de melhorias ou quiser contribuir de alguma forma, ficarei feliz em receber seu feedback.
 
-<br><b>Contato:</b>
+✉️ <b>Contato:</b>
 
-<p>Se você quiser entrar em contato comigo, sinta-se a vontade.</p> 
+Se você tiver alguma dúvida, sugestão ou interesse em colaborar, não hesite em me contatar.
 
-<a href="https://linkedin.com/in/danielengineer" target="_blank">
+Email: <a href="mailto:danielportela.ti@gmail.com">danielportela.ti@gmail.com</a> 
+
+<a href="https://linkedin.com/in/danieportelati" target="_blank">
   <img align="center" src="https://img.shields.io/badge/ - LinkedIn-05122A?style=flat&logo=linkedin" alt="linkedin"/>
 </a>
- <a href="https://instagram.com/danielengineer_" target="_blank">
+ <a href="https://instagram.com/danielportelati" target="_blank">
  <img align="center" src="https://img.shields.io/badge/ - Instagram-05122A?style=flat&logo=instagram" alt="instagram"/>
 </a>
- <a href="https://wa.me/77999109489" target="_blank">
+ <a href="https://wa.me/77999408643" target="_blank">
  <img align="center" src="https://img.shields.io/badge/-Whatsapp-05122A?style=flat&logo=whatsapp" alt="whatsapp"/>
-</a>
-<a href="https://www.behance.net/danielengineer_" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-behance-05122A?style=flat&logo=behance" alt="behance"/>
 </a>
