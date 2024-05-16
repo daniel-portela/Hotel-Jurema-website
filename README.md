@@ -5,7 +5,7 @@ Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvo
 <p>Este é um projeto de site oficial para o Hotel Jurema, desenvolvido por um autônomo. O objetivo deste projeto era criar um site elegante e funcional para promover o hotel, fornecendo informações sobre suas instalações, serviços, disponibilidade, galeria de fotos, contatos e avaliações dos clientes.</p>
 </div>
 
-![preview](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/e294ab8c-f456-4492-8693-4c0eded93e8a)
+![preview](https://github.com/daniel-portela/hotel-Jurema-website/assets/110783805/3e9cc859-8904-45f6-94e0-4a12aedbb4f2)
 
 ![preview-responsive](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/5e196249-dbbe-44ae-a83e-0a08949b90c7)
 
