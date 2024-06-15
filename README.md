@@ -3,11 +3,9 @@
 Site oficial <a href="https://juremahotel.netlify.app/">Hotel Jurema</a> desenvolvido de forma autônoma
 
 <p>Este é um projeto de site oficial para o Hotel Jurema, desenvolvido por um autônomo. O objetivo deste projeto era criar um site elegante e funcional para promover o hotel, fornecendo informações sobre suas instalações, serviços, disponibilidade, galeria de fotos, contatos e avaliações dos clientes.</p>
-
-<a href="https://juremahotel.netlify.app/">Demonstração ao vivo</a>
 </div>
 
-![preview](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/e294ab8c-f456-4492-8693-4c0eded93e8a)
+![preview](https://github.com/daniel-portela/hotel-Jurema-website/assets/110783805/3e9cc859-8904-45f6-94e0-4a12aedbb4f2)
 
 ![preview-responsive](https://github.com/daniel-portela/Hotel-Jurema-website/assets/110783805/5e196249-dbbe-44ae-a83e-0a08949b90c7)
 
@@ -52,13 +50,3 @@ Este projeto está sob [LICENSE](LICENSE), o que significa que você não tem pe
 Se você tiver alguma dúvida, sugestão ou interesse em colaborar, não hesite em me contatar.
 
 Email: <a href="mailto:danielportela.ti@gmail.com">danielportela.ti@gmail.com</a> 
-
-<a href="https://linkedin.com/in/danieportelati" target="_blank">
-  <img align="center" src="https://img.shields.io/badge/ - LinkedIn-05122A?style=flat&logo=linkedin" alt="linkedin"/>
-</a>
- <a href="https://instagram.com/danielportelati" target="_blank">
- <img align="center" src="https://img.shields.io/badge/ - Instagram-05122A?style=flat&logo=instagram" alt="instagram"/>
-</a>
- <a href="https://wa.me/77999408643" target="_blank">
- <img align="center" src="https://img.shields.io/badge/-Whatsapp-05122A?style=flat&logo=whatsapp" alt="whatsapp"/>
-</a>
