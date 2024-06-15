@@ -1,3 +1,4 @@
+// Manipulação do menu responsivo
 let navbar = document.querySelector('.header .navbar');
 document.querySelector('#menu-btn').onclick = () => {
    navbar.classList.toggle('active');
@@ -7,13 +8,16 @@ window.onscroll = () => {
    navbar.classList.remove('active');
 }
 
+// Manipulação das abas de FAQ
 document.querySelectorAll('.contact .row .faq .box h3').forEach(faqBox => {
    faqBox.onclick = () => {
-      faqBox.parentElement.classList.toggle('active');
+      let faqContent = faqBox.parentElement; // Seleciona a div .box
+      faqContent.classList.toggle('active'); // Adiciona ou remove a classe .active
    }
 });
 
-var swiper = new Swiper(".home-slider", {
+// Inicialização dos Swipers
+var homeSwiper = new Swiper(".home-slider", {
    loop: true,
    effect: "coverflow",
    spaceBetween: 30,
@@ -31,7 +35,7 @@ var swiper = new Swiper(".home-slider", {
    },
 });
 
-var swiper = new Swiper(".gallery-slider", {
+var gallerySwiper = new Swiper(".gallery-slider", {
    loop: true,
    effect: "coverflow",
    slidesPerView: "auto",
@@ -49,7 +53,7 @@ var swiper = new Swiper(".gallery-slider", {
    },
 });
 
-var swiper = new Swiper(".reviews-slider", {
+var reviewsSwiper = new Swiper(".reviews-slider", {
    loop: true,
    slidesPerView: "auto",
    grabCursor: true,
